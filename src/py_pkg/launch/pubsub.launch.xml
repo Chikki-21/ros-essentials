@@ -1,0 +1,8 @@
+<launch> 
+    <node pkg="py_pkg" exec="robot_news_publisher" name="robot_news">
+        <remap from = "/robot_news" to="/news"/>
+    <node pkg="py_pkg" exec="robot_news_subscriber" name="news_subscriber">
+        <remap from = "/robot_news" to="/news"/>
+
+
+</launch>
