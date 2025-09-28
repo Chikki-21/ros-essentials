@@ -7,6 +7,8 @@
   <license>MIT</license>
 
   <buildtool_depend>ament_python</buildtool_depend>
+  <depend>example_interfaces</depend>
+  <depend>my_robot_interfaces</depend>
 
   <depend>rclpy</depend>
 
