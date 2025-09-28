@@ -1,2 +1,6 @@
-# ros-essentials
-ROS 2 examples &amp; tutorials — ROS nodes, publishers/subscribers, services, custom interfaces, URDFs &amp; launch files (with screenshots &amp; step-by-step guides)
+# ROS Essentials
+
+Simple, beginner-friendly ROS 2 examples and tutorials:
+- `packages/first_node` — minimal first rclpy node (logs messages).
+This repo will later hold pub/sub, services, custom messages, URDFs and launch files with screenshots.
+
