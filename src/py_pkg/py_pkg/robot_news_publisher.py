@@ -7,7 +7,7 @@ from example_interfaces.msg import String
 class RobotNewsStationNode(Node):
     def __init__(self):
         super().__init__('robot_news_station')
-        self.robot_name = self.declare_parameter("robot_name","R2D2")
+        self.declare_parameter("robot_name","R2D2")
         self.robot_name = self.get_parameter("robot_name").value
 
         # declaring a parameter with a default value of 1.0 seconds
