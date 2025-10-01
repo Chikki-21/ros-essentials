@@ -22,7 +22,9 @@ setup(
         'console_scripts': [
             'py_node = py_pkg.py_node:main',
             "robot_news_publisher = py_pkg.robot_news_publisher:main",
-            "robot_news_subscriber = py_pkg.robot_news_subscriber:main"
+            "robot_news_subscriber = py_pkg.robot_news_subscriber:main",
+            "add_two_ints_server = py_pkg.add_two_ints_server:main",
+            "add_two_ints_client = py_pkg.add_two_ints_client:main"
         ],
     },
 )
